@@ -9,13 +9,13 @@ let usermail;
 const id= Symbol('123')
 const anotherid=Symbol('123')       // these two are not same ids
 
-console.log(id===anotherid)
+// console.log(id===anotherid)
 // REFERENCE(non primitive)
 
 // array, ojjects, functions
 
 const heros=["shaktiman" ," arjun", "karn"]
-console.log(heros);
+// console.log(heros);
 
 // object declaration
 let myobj={
@@ -25,12 +25,22 @@ let myobj={
 // function declation
 
 const myfunction=function(){
-    console.log("hello world");
+    // console.log("hello world");
     
 }
 
-console.log(myfunction());
+// console.log(myfunction());
 
 
 // note: JS is a dynamically typed language
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive ) , heap(Non-Primitive)
+
+let myname= "nihal";
+anothername= myname;
+
+console.log(myname);
+console.log(anothername);
 
